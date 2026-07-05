@@ -1,0 +1,26 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>XE Servicio Electrónico | Tienda Técnica</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="hero premium-shell">
+  <video autoplay loop muted playsinline class="logo"><source src="img/logo.mp4" type="video/mp4"></video>
+  <div class="metal-kicker">XE SERVICIO ELECTRÓNICO</div>
+  <h1 class="metal-title">TIENDA <span>TÉCNICA XE</span></h1><p>Diagramas · Overlay · BoardView · Proyectos técnicos</p>
+  <div class="trust-strip"><div><b>◇</b><span>CONTENIDO<br>PROFESIONAL</span></div><div><b>⌁</b><span>RECURSOS<br>ESPECIALIZADOS</span></div><div><b>⬡</b><span>PROYECTOS<br>XE</span></div></div>
+  <div class="tools"><input id="search" placeholder="⌕  Buscar producto, placa, modelo..."><div class="currency"><button data-cur="MXN" class="active">MXN</button><button data-cur="USD">USD</button></div></div>
+</header>
+<main>
+<div class="section-title"><span>01</span><div><h2>ELIGE TU CATEGORÍA</h2><p>Selecciona la plataforma o recurso técnico que estás buscando.</p></div></div><section id="categories" class="categories">
+<button data-cat="Xbox One">XBOX ONE</button><button data-cat="Xbox Series S">SERIES S</button><button data-cat="Xbox Series X">SERIES X</button>
+<button data-cat="PS4">PLAYSTATION 4</button><button data-cat="PS5">PLAYSTATION 5</button><button data-cat="Nintendo">NINTENDO</button>
+<button data-cat="Herramientas">HERRAMIENTAS</button><button data-cat="Insumos">INSUMOS</button><button data-cat="Proyectos XE">PROYECTOS XE</button>
+</section>
+<section id="catalog" class="catalog hidden"><div class="catalog-head"><button id="back">← CATEGORÍAS</button><div><h2 id="catTitle"></h2><p id="notice"></p></div></div><div id="products" class="grid"></div></section>
+</main>
+<div id="modal" class="modal hidden"><div class="panel"><button id="close" class="close">×</button><div id="summary"></div>
+<h3>Elige cómo pagar</h3><div class="pay-tabs"><button data-pay="banorte">BANORTE</button><button data-pay="bancoppel">BANCOPPEL</button><button data-pay="mercadopago">MERCADO PAGO</button><button data-pay="paypal">PAYPAL</button></div>
+<div id="payInfo" class="pay-info"></div>
+<div class="client"><input id="clientName" placeholder="Nombre del cliente"><input id="clientEmail" type="email" placeholder="Correo electrónico"></div>
+<button id="send" class="send" disabled>SELECCIONA UN MÉTODO DE PAGO</button><p class="proof">Al pagar por transferencia o depósito, adjunta la foto de tu comprobante en WhatsApp.</p>
+</div></div>
+<script src="js/config.js"></script><script src="js/app.js"></script></body></html>
